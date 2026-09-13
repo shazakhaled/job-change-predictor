@@ -21,7 +21,7 @@ training_hours = st.number_input("Training Hours", min_value=0, max_value=400, v
 
 if st.button("Predict"):
     input_dict = {
-        'city': city_development_index,
+        'city': city,
         'gender': gender,
         'relevent_experience': relevent_experience,
         'enrolled_university': enrolled_university,
