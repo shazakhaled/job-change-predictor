@@ -7,7 +7,7 @@ encoders = joblib.load('label_encoder.pkl')
 
 st.title("🎯 Job Change Prediction")
 
-city_development_index = st.slider("City Development Index", 0.0, 1.0, 0.7)
+city  = st.slider("City Development Index", 0.0, 1.0, 0.7)
 gender = st.selectbox("Gender", ["Male", "Female", "Other"])
 relevent_experience = st.selectbox("Relevant Experience", ["Has relevent experience", "No relevent experience"])
 enrolled_university = st.selectbox("Enrolled in University", ["no_enrollment", "Full time course", "Part time course"])
